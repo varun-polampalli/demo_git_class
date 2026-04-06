@@ -1,0 +1,10 @@
+name: my-first-workflow
+on: push
+
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo text
+        run: 'echo "Hello, World"'
+  
